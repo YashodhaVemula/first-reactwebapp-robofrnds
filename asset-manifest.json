@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/first-reactwebapp-robofrnds/static/css/main.bb15fbae.css",
+    "main.js": "/first-reactwebapp-robofrnds/static/js/main.37f1cbc0.js",
+    "static/js/488.c5c49db3.chunk.js": "/first-reactwebapp-robofrnds/static/js/488.c5c49db3.chunk.js",
+    "static/media/SEGA.woff": "/first-reactwebapp-robofrnds/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
+    "index.html": "/first-reactwebapp-robofrnds/index.html",
+    "main.bb15fbae.css.map": "/first-reactwebapp-robofrnds/static/css/main.bb15fbae.css.map",
+    "main.37f1cbc0.js.map": "/first-reactwebapp-robofrnds/static/js/main.37f1cbc0.js.map",
+    "488.c5c49db3.chunk.js.map": "/first-reactwebapp-robofrnds/static/js/488.c5c49db3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb15fbae.css",
+    "static/js/main.37f1cbc0.js"
+  ]
+}
