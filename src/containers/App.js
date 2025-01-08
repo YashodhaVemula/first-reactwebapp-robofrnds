@@ -4,6 +4,7 @@ import Searchbox from '../components/Searchbox';
 // import {robots} from './robots';
 import Scroll from '../components/Scroll';
 import './App.css';
+import ErrorBoundry from '../components/ErrorBoundry';
 // state is a keyword that is used to communicate from the two child components which are not related at all.
 // state is an object whcih describes the application.
 // const state={
@@ -48,7 +49,9 @@ class App extends Component {
 							<h1 className='f1'>RoboFriends</h1>
 							<Searchbox searchChange={this.onSearchChange}/>
 							<Scroll>
-								<Cardlist robots={filteredRobots}/>
+								<ErrorBoundry>
+									<Cardlist robots={filteredRobots}/>
+								</ErrorBoundry>	
 					        </Scroll>
 					</div>	        
 
